@@ -10,7 +10,7 @@ var print = function(o){
             str+= p + ': { </br>' + print(o[p]) + '}';
         }
     }
-    str += '<hr>';
+    //str += '</br>~~~~~~~</br>';
     return str;
 }
 */
